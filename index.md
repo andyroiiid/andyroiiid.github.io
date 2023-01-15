@@ -18,7 +18,7 @@ header:
   caption: "Screenshot of my personal game engine project: Haru-V"
 
 title: "Andrew Huang"
-excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Programmer**."
+excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Graphics/Engine Programmer**."
 
 shipped_row:
   - image_path: /assets/images/haru-v/screenshot.png
