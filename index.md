@@ -2,22 +2,131 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: collection
-collection: portfolio
-entries_layout: grid
-author_profile: true
+layout: splash
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.7"
+  overlay_image: /assets/images/haru-v/screenshot.png
+  actions:
+    - label: "About Me"
+      url: "/about"
+    - label: "Portfolio"
+      url: "/portfolio"
+    - label: "Resume"
+      url: "/resume"
+  caption: "Screenshot of my personal game engine project: Haru-V"
+
+title: "Andrew Huang"
+excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Programmer**."
+
+shipped_row:
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Brain Machine"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Hex Rally Racers"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Conjury Revell"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+haru_row:
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Haru-V"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--success"
+
+personal_row:
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Trenchbroom-Haru"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Haru"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Harujion"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Overtime"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Aseprite Importer"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+team_row:
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Nyanzo: No Lives Left"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+early_row:
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Blockcraft"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Free Fall"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "TraceR"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-Hi, I'm **An "Andrew" Huang**, a game programmer.
+<h1><center>Shipped Games</center></h1>
+<hr/>
 
-I got my **Bachelor of Electronics and Information Engineering** in Huazhong University of Science and Technology in 2019.
+{% include feature_row id="shipped_row" %}
 
-I started my career working for a **indie game startup studio** called **Brainagi Games** where everyone had to take on multiple roles. We were using **Unity3D** as our primary engine.
+<h1><center>Personal Projects</center></h1>
+<hr/>
 
-Starting as a programmer, I learned very fast and worked on every aspect of game development (from design to art), and got **a broad spectrum of skills**.
+{% include feature_row id="haru_row" type="left" %}
 
-Now, I'm pursuing a **Master of Interactive Technology** degree at Southern Methodist University (SMU) Guildhall. We mainly make games with **Unreal 4**.
+{% include feature_row id="personal_row" %}
 
-I'm also a **Graduate Assistant** for two classes: *Scripting for Level Design* and *Programming for Commercial Game Engines*.
+<h1><center>Team Projects</center></h1>
+<hr/>
 
-Thank you for taking the time to look at my portfolio.
+{% include feature_row id="team_row" %}
+
+<h1><center>Early Projects</center></h1>
+<hr/>
+
+{% include feature_row id="early_row" %}

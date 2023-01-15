@@ -7,4 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-This is a list of the best projects I've worked on.
+This is a list of the best projects I've worked on (in alphabetical order).
+
+Check the [home page](/) for a **categorized** list.
