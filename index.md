@@ -21,38 +21,38 @@ title: "Andrew Huang"
 excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Graphics/Engine Programmer**."
 
 shipped_row:
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/brain-machine.png
     title: "Brain Machine"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A 3D puzzle/action game focusing on **polymorphing maps**. Shipped on **Steam**, **App Store**, and Chinese **Android** stores."
+    url: "/portfolio/brain-machine"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/hex-rally-racers.png
     title: "Hex Rally Racers"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**."
+    url: "/portfolio/hex-rally-racers"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/haru-v/screenshot.png
     title: "Conjury Revell"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A **steampunk** first person shooter. **About to ship on Steam**."
+    url: "/portfolio/conjury-revell"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 haru_row:
   - image_path: /assets/images/haru-v/screenshot.png
     title: "Haru-V"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines** and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
+    url: "/portfolio/haru-v"
     btn_label: "Read More"
     btn_class: "btn--success"
 
 personal_row:
   - image_path: /assets/images/haru-v/screenshot.png
     title: "Trenchbroom-Haru"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A fork of the TrenchBroom editor, designed to use with **Haru-V engine** and serve as its **level editor**."
+    url: "/portfolio/trenchbroom-haru"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/haru-v/screenshot.png
@@ -61,50 +61,50 @@ personal_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/harujion.png
     title: "Harujion"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A 2D **Modern OpenGL**-based game engine with **Lua** scripting support. Heavily inspired by **Love2D**."
+    url: "/portfolio/harujion"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/overtime.png
     title: "Overtime"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A **Half-Life 2: Episode 2** map focusing on **Time Travel** abilities and gameplay. Heavily inspired by \"Effect and Cause\" from *Titanfall 2*."
+    url: "/portfolio/overtime"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/aseprite-importer.png
     title: "Aseprite Importer"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "***.aseprite** file (a pixel art format) importer for **Unity3D**."
+    url: "/portfolio/aseprite-importer"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 team_row:
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/nyanzo.png
     title: "Nyanzo: No Lives Left"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A **2D** mobile **swipng puzzle** game."
+    url: "/portfolio/nyanzo"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 early_row:
   - image_path: /assets/images/haru-v/screenshot.png
     title: "Blockcraft"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support. It's one of my early projects."
+    url: "/portfolio/blockcraft"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/haru-v/screenshot.png
     title: "Free Fall"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A **platforming puzzle** game made with **Blockcraft** engine. It's one of my early projects."
+    url: "/portfolio/free-fall"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/covers/trace-r.png
     title: "TraceR"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    excerpt: "A toy **interactive** software **path tracer**. It's one of my early projects."
+    url: "/portfolio/trace-r"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---

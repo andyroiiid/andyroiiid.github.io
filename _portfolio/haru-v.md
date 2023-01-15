@@ -1,6 +1,6 @@
 ---
 title:  "Haru-V"
-excerpt: "A Vulkan 3D game engine. Somewhat inspired by Quake/Source/early IW Engine."
+excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines** and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
 sidebar:
     - title: "Type"
       text: "3D Game Engine"

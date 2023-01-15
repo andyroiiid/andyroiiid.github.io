@@ -1,6 +1,6 @@
 ---
 title:  "Aseprite Importer"
-excerpt: "*.aseprite file (a pixel art format) importer for Unity3D. "
+excerpt: "***.aseprite** file (a pixel art format) importer for **Unity3D**."
 sidebar:
     - title: "Type"
       text: "Unity Package"

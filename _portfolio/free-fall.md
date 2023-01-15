@@ -1,6 +1,6 @@
 ---
 title:  "Free Fall"
-excerpt: "A platforming puzzle game made with Blockcraft engine. It's one of my early projects."
+excerpt: "A **platforming puzzle** game made with **Blockcraft** engine. It's one of my early projects."
 sidebar:
     - title: "Type"
       text: "Game"

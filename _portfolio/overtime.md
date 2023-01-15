@@ -1,6 +1,6 @@
 ---
 title:  "Overtime"
-excerpt: "A Half-Life 2: Episode 2 map focusing on time travel abilities."
+excerpt: "A **Half-Life 2: Episode 2** map focusing on **Time Travel** abilities and gameplay. Heavily inspired by \"Effect and Cause\" from *Titanfall 2*."
 sidebar:
     - title: "Type"
       text: "Custom Map"

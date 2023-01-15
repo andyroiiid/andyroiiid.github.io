@@ -1,6 +1,6 @@
 ---
 title:  "Nyanzo: No Lives Left"
-excerpt: "A 2D mobile swping puzzle game."
+excerpt: "A 2D mobile swipng puzzle game."
 sidebar:
     - title: "Role"
       text: "Lead Game Designer & Programmer"

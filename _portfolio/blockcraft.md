@@ -1,6 +1,6 @@
 ---
 title:  "Blockcraft"
-excerpt: "A multi-threaded Minecraft-like voxel game engine with infinite world support. It's one of my early projects."
+excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support. It's one of my early projects."
 sidebar:
     - title: "Type"
       text: "3D Game Engine"
