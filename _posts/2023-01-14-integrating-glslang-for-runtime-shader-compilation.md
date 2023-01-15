@@ -1,5 +1,5 @@
 ---
-title:  "Integration glslang for runtime shader compilation"
+title:  "Integrating glslang for runtime shader compilation"
 date:   2023-01-14 18:00:00 -0600
 categories: vulkan
 tags: glslang
