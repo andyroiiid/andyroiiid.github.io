@@ -81,6 +81,12 @@ personal_row:
     btn_class: "btn--primary"
 
 team_row:
+  - image_path: /assets/images/haru-v/screenshot.png
+    title: "Rolling Blocks"
+    excerpt: "A **3D** mobile **block rolling** puzzle game. This is a cut project of **Brainagi Games**."
+    url: "/portfolio/rolling-blocks"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/covers/nyanzo.png
     title: "Nyanzo: No Lives Left"
     excerpt: "A **2D** mobile **swipng puzzle** game."
