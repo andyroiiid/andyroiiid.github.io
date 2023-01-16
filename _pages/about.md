@@ -5,7 +5,7 @@ title: About Me
 
 Hi, I'm **An "Andrew" Huang**, a game graphics/engine programmer.
 
-I got my **Bachelor of Electronics and Information Engineering** in Huazhong University of Science and Technology. After that, I started my career working for an **indie game startup studio** called **Brainagi Games** where everyone had to take on multiple roles. Our primary game engine was **Unity3D**.
+I got my **Bachelor of Electronics and Information Engineering** in Huazhong University of Science and Technology. After that, I started my career working for an **indie game startup studio** called **Brainagi Games** where everyone had to be a **generalist**. Our primary game engine was **Unity3D**.
 
 Now, I'm pursuing a **Master of Interactive Technology** degree at Southern Methodist University (SMU) Guildhall, and worked as a **Graduate Assistant** for two classes: *Scripting for Level Design* and *Programming for Commercial Game Engines*. At Guildhall we mainly used **Unreal 4**.
 
@@ -15,13 +15,13 @@ Thank you for taking the time to look at my portfolio.
 
 - **Programming Languages**: C++, C, C#, Python, Lua, GLSL, Unreal Blueprints, Java, Javascript, Dart (Flutter), Verilog, Assembly
 - **Other Lanauges**: Unreal Blueprints, Unity ShaderLab, HTML/CSS, SQL
-- **Graphics**: Vulkan, OpenGL
-- **Audio**: FMOD, OpenAL
+- **Graphics**: Vulkan, OpenGL (mainly Core Profile 3.3+), a bit of DirectX 11
+- **Audio**: FMOD (Studio API), OpenAL
 - **Physics**: PhysX, Box2D
 - **Debugging Tools**: RenderDoc, ImGui, Tracy, Nsight Graphics, PhysX Visual Debugger
 - **Backend/Server Development**: Flask, PostgreSQL, Redis, Docker, etc.
 - **Development Environment**: Windows, Linux (Desktop & Headless), macOS
-- **Deployment Environment**: Windows, Linux (mainly Docker), Android, iOS, Embedded devices (Single-board computers, FPGA)
+- **Deployment Environment**: Windows, Linux (mainly Docker), Android, iOS, Embedded devices (single-board computers, FPGA)
 - **Version Control Tools**: Git (pull request & code review workflow), Perforce
 
 ### Skills as a Designer
