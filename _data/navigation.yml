@@ -1,11 +1,11 @@
 main:
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Shipped Games"
+    url: /shipped_games/
+  - title: "Personal Projects"
+    url: /personal_projects/
+  - title: "Team Games"
+    url: /team_games/
   - title: "Posts"
-    url: /posts/
-  - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About Me"
     url: /about/

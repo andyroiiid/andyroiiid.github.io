@@ -1,5 +1,5 @@
 ---
-title:  "Trenchbroom-Haru"
+title:  "Trenchbroom-Haru Editor"
 excerpt: "A fork of the TrenchBroom editor, designed to use with **Haru-V engine** and serve as its **level editor**."
 sidebar:
     - title: "Type"

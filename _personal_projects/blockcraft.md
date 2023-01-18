@@ -1,19 +1,19 @@
 ---
-title:  "Haru-V"
-excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines** and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
+title:  "Blockcraft Engine"
+excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support. It's one of my early projects."
 sidebar:
     - title: "Type"
       text: "3D Game Engine"
     - title: "Programming Lanauges"
-      text: "C++, Lua"
+      text: "C++"
     - title: "Highlighted Features"
-      text: "Vulkan renderer; Deferred & forward rendering pipelines; Physically Based Rendering; Quake-style map/entity support; Lua scripting; FXAA/FMOD/PhysX integration"
+      text: "OpenGL renderer; Infinite voxel world support; Multi-threaded chunk update; FMOD integration"
     - title: "Team"
       text: "Solo"
     - title: "Work Period"
-      text: "12/19/2022 - Present"
+      text: "03/2020 - 12/2020"
     - title: "GitHub Repository"
-      text: "https://github.com/andyroiiid/Haru-V"
+      text: "https://github.com/andyroiiid/voxel-game-binaries"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus eu turpis tempor maximus. Sed nec eros quis mauris cursus elementum et eget erat. Etiam ornare imperdiet nibh tristique accumsan. Vivamus vel sem eu mi maximus mattis quis et ex. Nulla sed rutrum neque. Sed nec blandit lorem, at condimentum lectus. Nulla sed odio elementum, tincidunt odio vitae, posuere tortor. Curabitur leo arcu, volutpat sed molestie et, vehicula a magna. Sed vehicula tellus purus, at fermentum odio scelerisque id. Praesent enim neque, faucibus nec faucibus nec, molestie accumsan ipsum. Curabitur mollis accumsan urna, vel tristique ipsum rhoncus sed. In tristique leo justo, eget vulputate sem gravida in.

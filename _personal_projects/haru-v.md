@@ -1,19 +1,19 @@
 ---
-title:  "Aseprite Importer"
-excerpt: "***.aseprite** file (a pixel art format) importer for **Unity3D**."
+title:  "Haru-V Engine"
+excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines** and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
 sidebar:
     - title: "Type"
-      text: "Unity Package"
+      text: "3D Game Engine"
     - title: "Programming Lanauges"
-      text: "C#"
+      text: "C++, Lua"
     - title: "Highlighted Features"
-      text: "Adding *.aseprite binary file support for Unity3D using Scripted Importers API"
+      text: "Vulkan renderer; Deferred & forward rendering pipelines; Physically Based Rendering; Quake-style map/entity support; Lua scripting; FXAA/FMOD/PhysX integration"
     - title: "Team"
       text: "Solo"
     - title: "Work Period"
-      text: "05/2022 - Present"
+      text: "12/19/2022 - Present"
     - title: "GitHub Repository"
-      text: "https://github.com/andyroiiid/AsepriteImporter"
+      text: "https://github.com/andyroiiid/Haru-V"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus eu turpis tempor maximus. Sed nec eros quis mauris cursus elementum et eget erat. Etiam ornare imperdiet nibh tristique accumsan. Vivamus vel sem eu mi maximus mattis quis et ex. Nulla sed rutrum neque. Sed nec blandit lorem, at condimentum lectus. Nulla sed odio elementum, tincidunt odio vitae, posuere tortor. Curabitur leo arcu, volutpat sed molestie et, vehicula a magna. Sed vehicula tellus purus, at fermentum odio scelerisque id. Praesent enim neque, faucibus nec faucibus nec, molestie accumsan ipsum. Curabitur mollis accumsan urna, vel tristique ipsum rhoncus sed. In tristique leo justo, eget vulputate sem gravida in.

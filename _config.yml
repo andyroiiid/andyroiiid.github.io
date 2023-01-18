@@ -76,10 +76,24 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _portfolio
+  # _shipped_games
   - scope:
-      path: "_portfolio"
-      type: portfolio
+      path: "_shipped_games"
+      type: shipped_games
+    values:
+      layout: single
+      author_profile: false
+  # _personal_projects
+  - scope:
+      path: "_personal_projects"
+      type: personal_projects
+    values:
+      layout: single
+      author_profile: false
+  # _team_games
+  - scope:
+      path: "_team_games"
+      type: team_games
     values:
       layout: single
       author_profile: false
@@ -92,7 +106,13 @@ tag_archive:
   path: /tags/
 
 collections:
-  portfolio:
+  shipped_games:
+    output: true
+    permalink: /:collection/:path/
+  personal_projects:
+    output: true
+    permalink: /:collection/:path/
+  team_games:
     output: true
     permalink: /:collection/:path/
 

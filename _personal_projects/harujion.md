@@ -1,5 +1,5 @@
 ---
-title:  "Harujion"
+title:  "Harujion Engine"
 excerpt: "A 2D **Modern OpenGL**-based game engine with **Lua** scripting support. Heavily inspired by **Love2D**."
 sidebar:
     - title: "Type"

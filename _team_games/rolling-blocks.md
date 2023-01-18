@@ -1,19 +1,19 @@
 ---
-title:  "Blockcraft"
-excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support. It's one of my early projects."
+title:  "Rolling Blocks"
+excerpt: "A 3D mobile block rolling puzzle game. This is a cut project of Brainagi Games."
 sidebar:
-    - title: "Type"
-      text: "3D Game Engine"
-    - title: "Programming Lanauges"
-      text: "C++"
-    - title: "Highlighted Features"
-      text: "OpenGL renderer; Infinite voxel world support; Multi-threaded chunk update; FMOD integration"
+    - title: "Role"
+      text: "Graphics Programmer & Technical Artist"
+    - title: "Game Engine"
+      text: "Unity3D"
+    - title: "Genre"
+      text: "3D, Puzzle, Casual"
     - title: "Team"
-      text: "Solo"
+      text: "Brainagi Games, ~7 developers"
     - title: "Work Period"
-      text: "03/2020 - 12/2020"
-    - title: "GitHub Repository"
-      text: "https://github.com/andyroiiid/voxel-game-binaries"
+      text: "12/2017 - 03/2019"
+    - title: "Shipped Platforms"
+      text: "Cut"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus eu turpis tempor maximus. Sed nec eros quis mauris cursus elementum et eget erat. Etiam ornare imperdiet nibh tristique accumsan. Vivamus vel sem eu mi maximus mattis quis et ex. Nulla sed rutrum neque. Sed nec blandit lorem, at condimentum lectus. Nulla sed odio elementum, tincidunt odio vitae, posuere tortor. Curabitur leo arcu, volutpat sed molestie et, vehicula a magna. Sed vehicula tellus purus, at fermentum odio scelerisque id. Praesent enim neque, faucibus nec faucibus nec, molestie accumsan ipsum. Curabitur mollis accumsan urna, vel tristique ipsum rhoncus sed. In tristique leo justo, eget vulputate sem gravida in.
