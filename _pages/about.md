@@ -3,6 +3,8 @@ permalink: /about/
 title: About Me
 ---
 
+![My photo](/assets/images/prism-photo.jpg){: .align-right}
+
 Hi, I'm **An "Andrew" Huang**, a game graphics/engine programmer.
 
 I got my **Bachelor of Electronics and Information Engineering** in Huazhong University of Science and Technology. After that, I started my career working for an **indie game startup studio** called **Brainagi Games** where everyone had to be a **generalist**. Our primary game engine was **Unity3D**.
