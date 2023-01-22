@@ -19,7 +19,7 @@ title: "Andrew Huang"
 excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Graphics/Engine Programmer**."
 
 shipped_row:
-  - image_path: /assets/images/covers/brain-machine.png
+  - image_path: /assets/images/brain-machine/cover.png
     title: "Brain Machine"
     excerpt: "A 3D puzzle/action game focusing on **polymorphing maps**. Shipped on **Steam**, **App Store**, and Chinese **Android** stores."
     url: "/shipped_games/brain-machine"

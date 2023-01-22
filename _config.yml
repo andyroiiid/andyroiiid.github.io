@@ -69,6 +69,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
@@ -76,6 +77,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
   # _shipped_games
   - scope:
       path: "_shipped_games"
@@ -83,6 +85,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      classes: wide
   # _personal_projects
   - scope:
       path: "_personal_projects"
@@ -90,6 +93,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      classes: wide
   # _team_games
   - scope:
       path: "_team_games"
@@ -97,6 +101,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      classes: wide
 
 category_archive:
   type: liquid
@@ -123,6 +128,12 @@ plugins:
 
 include:
   - _pages
+
+head_scripts:
+  - /assets/js/mermaid.min.js
+
+after_footer_scripts:
+  - /assets/js/init_mermaid.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.
