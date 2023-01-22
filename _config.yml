@@ -37,7 +37,7 @@ timezone: America/Chicago
 author:
   name   : "Andrew Huang"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi, I'm An \"Andrew\" Huang, a game graphics/engine programmer. Currently I'm studying at Southern Methodist University Guildhall, a game development graduate program."
+  bio    : "Hi, I'm An \"Andrew\" Huang, a game graphics/engine programmer. Currently I'm studying at Southern Methodist University Guildhall, a game development graduate program. Sometimes I also do tech design/art stuff."
   links:
     - label: "Linkedin"
       icon: "fas fa-fw fa-link"

@@ -37,6 +37,18 @@ gallery:
   - url: /assets/images/brain-machine/new_screenshot.jpg
     image_path: /assets/images/brain-machine/new_screenshot.jpg
     title: "Brain Machine mobile version"
+  - url: /assets/images/brain-machine/screenshot1.jpg
+    image_path: /assets/images/brain-machine/screenshot1.jpg
+    title: "More screenshots of Brain Machine"
+  - url: /assets/images/brain-machine/screenshot2.jpg
+    image_path: /assets/images/brain-machine/screenshot2.jpg
+    title: "More screenshots of Brain Machine"
+  - url: /assets/images/brain-machine/screenshot3.jpg
+    image_path: /assets/images/brain-machine/screenshot3.jpg
+    title: "More screenshots of Brain Machine"
+  - url: /assets/images/brain-machine/screenshot4.jpg
+    image_path: /assets/images/brain-machine/screenshot4.jpg
+    title: "More screenshots of Brain Machine"
   - url: /assets/images/brain-machine/appstore.jpg
     image_path: /assets/images/brain-machine/appstore.jpg
     title: "Brain Machine on App Store"
