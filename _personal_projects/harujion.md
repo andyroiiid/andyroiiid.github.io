@@ -1,6 +1,8 @@
 ---
 title:  "Harujion Engine"
 excerpt: "A 2D **Modern OpenGL**-based game engine with **Lua** scripting support. Heavily inspired by **Love2D**."
+header:
+  teaser: /assets/images/temp.png
 sidebar:
     - title: "Type"
       text: "2D Game Engine"

@@ -1,21 +1,19 @@
 ---
-title:  "Hex Rally Racers"
-excerpt: "A split-screen multiplayer racing game. Shipped on Steam."
+title:  "Strafe"
+excerpt: "A toy interactive software path tracer. It's one of my early projects."
 header:
   teaser: /assets/images/temp.png
 sidebar:
-    - title: "Role"
-      text: "Gameplay Programmer & VFX Artist"
+    - title: "Type"
+      text: "Game Prototype"
     - title: "Game Engine"
-      text: "Unreal 4.27.2"
-    - title: "Genre"
-      text: "3D, Racing, Split-Screen Multiplayer"
+      text: "Unreal 4"
+    - title: "Programming Lanauges"
+      text: "C++, Unreal Blueprints"
+    - title: "Highlighted Features"
+      text: "Wall Running"
     - title: "Team"
-      text: "SMU Guildhall, ~60 developers"
-    - title: "Work Period"
-      text: "01/2022 - 05/2022"
-    - title: "Shipped Platforms"
-      text: "Steam"
+      text: "Solo"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at tellus eu turpis tempor maximus. Sed nec eros quis mauris cursus elementum et eget erat. Etiam ornare imperdiet nibh tristique accumsan. Vivamus vel sem eu mi maximus mattis quis et ex. Nulla sed rutrum neque. Sed nec blandit lorem, at condimentum lectus. Nulla sed odio elementum, tincidunt odio vitae, posuere tortor. Curabitur leo arcu, volutpat sed molestie et, vehicula a magna. Sed vehicula tellus purus, at fermentum odio scelerisque id. Praesent enim neque, faucibus nec faucibus nec, molestie accumsan ipsum. Curabitur mollis accumsan urna, vel tristique ipsum rhoncus sed. In tristique leo justo, eget vulputate sem gravida in.

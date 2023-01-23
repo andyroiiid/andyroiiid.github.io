@@ -25,13 +25,13 @@ shipped_row:
     url: "/shipped_games/brain-machine"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/covers/hex-rally-racers.png
+  - image_path: /assets/images/temp.png
     title: "Hex Rally Racers"
     excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**."
     url: "/shipped_games/hex-rally-racers"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/temp.png
     title: "Conjury Revell"
     excerpt: "A **steampunk** first person shooter. **About to ship on Steam**."
     url: "/shipped_games/conjury-revell"
@@ -47,7 +47,7 @@ haru_row:
     btn_class: "btn--success"
 
 personal_row:
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/temp.png
     title: "Strafe"
     excerpt: "A high-mobility first person shooter prototype with wall-running abilities."
     url: "/personal_projects/strafe"
@@ -59,7 +59,7 @@ personal_row:
     url: "/personal_projects/blockcraft"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
+  - image_path: /assets/images/temp.png
     title: "More Personal Projects"
     excerpt: "I spent most of my free time working on my personal projects. Check the button for more."
     url: "/personal_projects"

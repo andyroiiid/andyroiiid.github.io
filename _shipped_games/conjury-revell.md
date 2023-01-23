@@ -1,6 +1,8 @@
 ---
 title:  "Conjury Revell"
 excerpt: "A steampunk first person shooter. About to ship on Steam."
+header:
+  teaser: /assets/images/temp.png
 sidebar:
     - title: "Role"
       text: "Technical Designer"

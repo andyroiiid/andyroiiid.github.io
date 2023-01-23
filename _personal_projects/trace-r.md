@@ -1,6 +1,8 @@
 ---
 title:  "TraceR"
 excerpt: "A toy interactive software path tracer. It's one of my early projects."
+header:
+  teaser: /assets/images/temp.png
 sidebar:
     - title: "Type"
       text: "Computer Graphics Experiments"

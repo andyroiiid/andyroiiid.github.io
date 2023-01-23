@@ -1,6 +1,8 @@
 ---
 title:  "Rolling Blocks"
 excerpt: "A 3D mobile block rolling puzzle game. This is a cut project of Brainagi Games."
+header:
+  teaser: /assets/images/temp.png
 sidebar:
     - title: "Role"
       text: "Graphics Programmer & Technical Artist"
