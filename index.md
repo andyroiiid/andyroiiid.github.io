@@ -53,17 +53,17 @@ personal_row:
     url: "/personal_projects/strafe"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/haru-v/screenshot.png
-    title: "Blockcraft Engine"
-    excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support. It's one of my early projects."
+  - image_path: /assets/images/blockcraft/cover.png
+    title: "Blockcraft Engine & Free Fall (Game)"
+    excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support, and a **plaforming** game made with the engine. It's one of my early projects."
     url: "/personal_projects/blockcraft"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/haru-v/screenshot.png
-    title: "More Projects"
-    excerpt: "I spent most of my free time working on my personal projects. Check this link for **more**."
+    title: "More Personal Projects"
+    excerpt: "I spent most of my free time working on my personal projects. Check the button for more."
     url: "/personal_projects"
-    btn_label: "Read More"
+    btn_label: "More Projects"
     btn_class: "btn--primary"
 ---
 
