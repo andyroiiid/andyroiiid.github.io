@@ -2,7 +2,10 @@
 title:  "Harujion Engine"
 excerpt: "A 2D **Modern OpenGL**-based game engine with **Lua** scripting support. Heavily inspired by **Love2D**."
 header:
-  teaser: /assets/images/temp.png
+  teaser: /assets/images/harujion/flappy.png
+  overlay_image: /assets/images/harujion/flappy.png
+  overlay_filter: 0.5
+  caption: "Screenshot of Flappy Bird made with this engine"
 sidebar:
     - title: "Type"
       text: "2D Game Engine"
@@ -38,6 +41,13 @@ I'm working on a similar project with one of my friend called `amore2d`. It's no
   - Renderer
   - Audio
   - Built-in common 2D graphics objects
+
+## Demo video: Flappy Bird
+
+{% include video id="n5nEM4SKz-g" provider="youtube" %}
+
+Assets are from [this](https://github.com/sourabhv/FlapPyBird) repo.
+{: .notice--info}
 
 ## Sample Lua Code: Player script for the Flappy Bird game
 
