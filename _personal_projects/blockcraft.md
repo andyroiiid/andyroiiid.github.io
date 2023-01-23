@@ -44,7 +44,6 @@ gallery2:
     image_path: /assets/images/blockcraft/before-attenuation.png
     title: "Without fog"
 
-wide: false
 toc: true
 ---
 
