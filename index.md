@@ -12,7 +12,7 @@ header:
     - label: "About Me"
       url: "/about"
     - label: "Resume"
-      url: "/resume"
+      url: "https://drive.google.com/file/d/18iqd6H-QjgJFoL5_sp4iGTpOQ-N0KXUY/view?usp=sharing"
   caption: "Screenshot of my personal game engine project: Haru-V"
 
 title: "Andrew Huang"
