@@ -59,7 +59,7 @@ personal_row:
     url: "/personal_projects/blockcraft"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp.png
+  - image_path: /assets/images/more_projects.png
     title: "More Personal Projects"
     excerpt: "I spent most of my free time working on my personal projects. Check the button for more."
     url: "/personal_projects"
