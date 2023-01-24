@@ -6,6 +6,9 @@ header:
   overlay_image: /assets/images/nyanzo/feature.png
   overlay_filter: 0.5
   caption: "Poster of Nyanzo"
+  actions:
+    - label: "Download APK"
+      url: https://drive.google.com/file/d/1oWH13CFCnA1l-gl0Mb3E1FJ7gtgqPamB/view?usp=sharing
 sidebar:
     - title: "Role"
       text: "Lead Game Designer & Programmer"
