@@ -1,6 +1,6 @@
 ---
 title:  "Strafe"
-excerpt: "A toy interactive software path tracer. It's one of my early projects."
+excerpt: "A high-mobility first person shooter prototype with wall-running abilities."
 header:
   teaser: /assets/images/temp.png
 sidebar:
