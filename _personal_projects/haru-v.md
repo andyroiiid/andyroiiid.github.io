@@ -349,3 +349,9 @@ There're problems with this technique, though:
 ![Wrong Prediction](/assets/images/haru-v/prediction.png){: .align-center}
 
 It's possible for the extrapolation to make wrong predictions and objects would visually clip through each other for a frame. However, according to my testing it looks okay as long as the Physics simulation runs at higher than 20 fps. So this is good enough for me.
+
+### Kalman-Filter based Character Controller movement prediction
+
+The player character movment component is based on [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter) instead of extrapolation, which allows it to handle sudden movement changes better.
+
+The Kalman Filter runs every physics frame (FixedUpdate).
