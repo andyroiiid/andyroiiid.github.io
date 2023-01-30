@@ -352,6 +352,14 @@ It's possible for the extrapolation to make wrong predictions and objects would 
 
 ### Kalman-Filter based Character Controller movement prediction
 
-The player character movment component is based on [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter) instead of extrapolation, which allows it to handle sudden movement changes better.
+The player character movment component is based on [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter) instead of extrapolation, which allows it to handle sudden movements better. The Kalman Filter runs every physics frame (`FixedUpdate`) and here are some plots of the Kalman Filter in action.
 
-The Kalman Filter runs every physics frame (FixedUpdate).
+As a reference, the player walk speed is around 5 units per second, and the `FixedUpdate` frequency is 0.02s per frame, so the position delta per physics frame is 0.1 unit. As you can see here, the predictions are pretty accurate.
+
+The recoreded vertical movements are only jumps and falls, but they are all sudden changes so the filter doesn't outperform extrapolation-based methods:
+
+![Vertical Prediction](/assets/images/haru-v/kalman-vertical.png){: .align-center}
+
+The horizontal movement predictions are much better:
+
+![Horizontal Prediction](/assets/images/haru-v/kalman-horizontal.png){: .align-center}
