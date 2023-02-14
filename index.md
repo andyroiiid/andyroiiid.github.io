@@ -21,19 +21,19 @@ excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Graphics/Engine Programmer**
 shipped_row:
   - image_path: /assets/images/brain-machine/cover.png
     title: "Brain Machine"
-    excerpt: "A 3D puzzle/action game focusing on **polymorphing maps**. Shipped on **Steam**, **App Store**, and Chinese **Android** stores."
+    excerpt: "A 3D puzzle/action game focusing on **polymorphing maps**. Shipped on **Steam**, **App Store**, and Chinese **Android** stores. I worked on this as a **Unity3D/Sever** Programmer."
     url: "/shipped_games/brain-machine"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/temp.png
     title: "Hex Rally Racers"
-    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**."
+    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam"
     url: "/shipped_games/hex-rally-racers"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp.png
+  - image_path: /assets/images/conjury-revell/cover.png
     title: "Conjury Revell"
-    excerpt: "A **steampunk** first person shooter. **About to ship on Steam**."
+    excerpt: "A **steampunk** first person shooter. Shipped on **Steam**. I worked on this project as a **Technical Designer**."
     url: "/shipped_games/conjury-revell"
     btn_label: "Read More"
     btn_class: "btn--primary"
