@@ -6,6 +6,9 @@ header:
   overlay_image: /assets/images/tracer/screenshot.png
   overlay_filter: 0.5
   caption: "Screenshot of TraceR"
+  actions:
+    - label: "GitHub"
+      url: https://github.com/andyroiiid/tracer
 sidebar:
     - title: "Type"
       text: "Computer Graphics Experiments"

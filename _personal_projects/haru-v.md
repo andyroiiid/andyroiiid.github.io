@@ -6,6 +6,11 @@ header:
   overlay_image: /assets/images/haru-v/screenshot2.png
   overlay_filter: 0.5
   caption: "Screenshot of Haru-V"
+  actions:
+    - label: "GitHub"
+      url: https://github.com/andyroiiid/Haru-V
+    - label: "GitHub (Old)"
+      url: https://github.com/andyroiiid/haru
 sidebar:
     - title: "Type"
       text: "3D Game Engine"

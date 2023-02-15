@@ -6,6 +6,9 @@ header:
   overlay_image: /assets/images/harujion/flappy.png
   overlay_filter: 0.5
   caption: "Screenshot of Flappy Bird made with this engine"
+  actions:
+    - label: "GitHub"
+      url: https://github.com/andyroiiid/harujion/
 sidebar:
     - title: "Type"
       text: "2D Game Engine"

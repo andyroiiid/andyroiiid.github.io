@@ -6,6 +6,9 @@ header:
   overlay_image: /assets/images/blockcraft/version-5.2.png
   overlay_filter: 0.5
   caption: "Screenshot of Free Fall"
+  actions:
+    - label: "Game Binaries"
+      url: https://github.com/andyroiiid/voxel-game-binaries
 sidebar:
     - title: "Type"
       text: "3D Game Engine & Platforming Game"
