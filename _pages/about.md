@@ -1,6 +1,13 @@
 ---
 permalink: /about/
 title: About Me
+gallery:
+  - url: /assets/images/mhw/1.jpg
+    image_path: /assets/images/mhw/1.jpg
+  - url: /assets/images/mhw/2.jpg
+    image_path: /assets/images/mhw/2.jpg
+  - url: /assets/images/mhw/3.jpg
+    image_path: /assets/images/mhw/3.jpg
 ---
 
 ![My photo](/assets/images/prism-photo.jpg){: .align-right}
@@ -13,48 +20,18 @@ Now, I'm pursuing a **Master of Interactive Technology** degree at Southern Meth
 
 Thank you for taking the time to look at my portfolio.
 
-### Skills as a Programmer
+### Me fighting my favorite monster in my favorite game
 
-- **Programming Languages**: C++, C, C#, Python, Lua, GLSL, Unreal Blueprints, Java, Javascript, Dart (Flutter), Verilog, Assembly
-- **Other Lanauges**: Unreal Blueprints, Unity ShaderLab, HTML/CSS, SQL
-- **Graphics**: Vulkan, OpenGL (mainly Core Profile 3.3+), a bit of DirectX 11
-- **Audio**: FMOD (Studio API), OpenAL
-- **Physics**: PhysX, Box2D
-- **Debugging Tools**: RenderDoc, ImGui, Tracy, Nsight Graphics, PhysX Visual Debugger
-- **Backend/Server Development**: Flask, PostgreSQL, Redis, Docker, etc.
-- **Development Environment**: Windows, Linux (Desktop & Headless), macOS
-- **Deployment Environment**: Windows, Linux (mainly Docker), Android, iOS, Embedded devices (single-board computers, FPGA)
-- **Version Control Tools**: Git (pull request & code review workflow), Perforce
+{% include gallery %}
 
-### Skills as a Designer
-
-- **Game Engines**: Unreal 4, Unity3D, Source Engine, Love2D, PICO-8, Godot, Ren'Py, GameMaker Studio, etc.
-
-- **Level Editors**: TrenchBroom, Hammer, Fallout 4 Creation Kit, Dying Light Developer Tools
-
-- **3D Tools**: Blender, Substance Painter/Designer, Houdini, 3DS Max
-
-- **2D Tool**s: Aseprite, Photoshop, Illustrator
-
-- **Audio Tools**: Audition, FL Studio, FMOD Studio
-
-- **Team Skills**: Agile Development, Experience leading small teams (~5 members)
-
-### Interested Areas
-
-- Game development/design
-- Computer graphics
-- Programming languages & compilers
-- Retro hardware/software
+Yes, I'm a longsword weeb :)
+{: .notice--info}
 
 ### Apart from making and playing games, I also love
 
-- Hong Kong movies
-    - Martial art movies
-    - Gangster movies
+- Messing around with
+    - Retro hardware/software
+    - Programming languages/compilers
+- Hong Kong action movies
 - Japanese music/anime/idols
-    - Amazarashi
-    - Yorushika
-    - Nogizaka46
-    - Mobile Suit Gundam
-    - Kamen Rider
+- Or simply Learning Japanese

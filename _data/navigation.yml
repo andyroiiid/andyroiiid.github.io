@@ -5,7 +5,5 @@ main:
     url: /personal_projects/
   - title: "Team Games"
     url: /team_games/
-  - title: "Posts"
-    url: /categories/
   - title: "About Me"
     url: /about/
