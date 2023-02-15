@@ -28,6 +28,9 @@ sidebar:
       text: "Steam, iOS, Android"
 
 gallery:
+  - url: /assets/images/brain-machine/chinajoy.jpg
+    image_path: /assets/images/brain-machine/chinajoy.jpg
+    title: "Brain Machine at ChinaJoy exhibition in the Xbox booth"
   - url: /assets/images/brain-machine/iphonex.jpg
     image_path: /assets/images/brain-machine/iphonex.jpg
     title: "Testing Brain Machine on iPhone X"
