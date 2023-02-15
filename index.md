@@ -27,7 +27,7 @@ shipped_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/temp.png
     title: "Hex Rally Racers"
-    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam"
+    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**."
     url: "/shipped_games/hex-rally-racers"
     btn_label: "Read More"
     btn_class: "btn--primary"
