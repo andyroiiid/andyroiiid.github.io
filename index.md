@@ -25,9 +25,9 @@ shipped_row:
     url: "/shipped_games/brain-machine"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp.png
+  - image_path: /assets/images/hex-rally-racers/cover.jpg
     title: "Hex Rally Racers"
-    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**."
+    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**. I worked on this project as a **Gameplay Programmer** and a **VFX Artist**."
     url: "/shipped_games/hex-rally-racers"
     btn_label: "Read More"
     btn_class: "btn--primary"

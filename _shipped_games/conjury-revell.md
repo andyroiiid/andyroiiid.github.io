@@ -81,7 +81,7 @@ It's pretty simple but looks believable without any animation.
 
 Later we decided that the zipline should look like some sort of magical power line, so the zipline no longer uses an actual rope.
 
-I wrote some code to procedurally generate meshes for ziplines. There werer two versions of ziplines:
+I wrote some code to procedurally generate meshes for ziplines. There were two versions of ziplines:
 
 - Direct (a straight line)
 - Spline-based (basically any shape a spline can make)
