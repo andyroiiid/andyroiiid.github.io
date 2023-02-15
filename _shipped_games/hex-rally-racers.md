@@ -64,6 +64,8 @@ I worked with other two artists and made [production plans](https://docs.google.
 
 I also authored some VFX (about one third). Here are some screenshots of my work below.
 
+{% include gallery id="gallery1" caption="Web trap." %}
+
 ### Material blueprint for Magical Chain
 
 ![Magical Chain](/assets/images/hex-rally-racers/magical-chain.png)

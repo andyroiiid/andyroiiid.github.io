@@ -3,7 +3,7 @@ title:  "Conjury Revell"
 excerpt: "A steampunk first person shooter. Shiped on Steam. I worked on this project as a technical designer."
 header:
   teaser: /assets/images/conjury-revell/cover.jpg
-  overlay_image: /assets/images/conjury-revell/cover.jpg
+  overlay_image: /assets/images/conjury-revell/library_hero.png
   overlay_filter: 0.5
   actions:
     - label: "Steam"
@@ -21,6 +21,13 @@ sidebar:
       text: "06/2022 - 12/2022"
     - title: "Shipped Platforms"
       text: "Steam (planning)"
+
+gallery1:
+  - url: /assets/images/conjury-revell/houdini1.png
+    image_path: /assets/images/conjury-revell/houdini1.png
+  - url: /assets/images/conjury-revell/houdini2.png
+    image_path: /assets/images/conjury-revell/houdini2.png
+
 toc: true
 ---
 
@@ -59,6 +66,8 @@ During the preproduction stage, I was the sole developer responsible for explori
 I teamed up with another level designer and made a sample level of using Houdini to procedurally generate a city background.
 
 {% include video id="f7p_rbfr6Aw" provider="youtube" %}
+
+{% include gallery id="gallery1" caption="Procedural city in Houdini." %}
 
 I also made some other experiments like using Houdini to procedurally generate pipline systems or create damaged assets.
 
@@ -130,4 +139,9 @@ I got experience in a lot of areas thanks to [my indie studio experience](/shipp
 - Helped the VFX team make some visual effects.
 - Helped the animation team with character animations.
 - Helped the sound team because the milestone was near and they still needed tons of sound effects.
+- Helped the lead artist work on lighting overhaul.
 - Helped basically whoever needs my help.
+
+I did lighting for the scene in the Steam banner:
+
+![Steam banner](/assets/images/conjury-revell/library_hero.png)
