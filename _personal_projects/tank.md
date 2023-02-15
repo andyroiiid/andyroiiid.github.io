@@ -1,6 +1,6 @@
 ---
 title:  "Tλnk"
-excerpt: "A **Half-Life 2: Episode 2** map with a drivable Tλnk."
+excerpt: "A **Half-Life 2: Episode 2** map with a drivable tank."
 header:
   teaser: /assets/images/tank/cover.jpg
   overlay_image: /assets/images/tank/cover.jpg

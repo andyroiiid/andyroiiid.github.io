@@ -134,7 +134,7 @@ However, Monorail ended up being another system that died very early because we 
 
 ## Wherever the team needs me
 
-I got experience in a lot of areas thanks to [my indie studio experience](/shipped_games/brain-machine), so I was also put in all kinds of positions because those teams need my help:
+I got experience in a lot of areas thanks to [my indie studio experience](/team_games/brain-machine), so I was also put in all kinds of positions because those teams need my help:
 
 - Helped the VFX team make some visual effects.
 - Helped the animation team with character animations.

@@ -24,7 +24,7 @@ This project is still a work-in-progress.
 
 ## Kaiju Killer: The game that was never made
 
-During the preproduction stage of [Conjury Revell](/shipped_games/conjury-revell), I brought up a quite ambitious project idea and we made a Flash Hack prototype for it. The core idea was that players are superhuman soldiers that can **run on walls** and fight Kaijus with all kinds of weapons.
+During the preproduction stage of [Conjury Revell](/team_games/conjury-revell), I brought up a quite ambitious project idea and we made a Flash Hack prototype for it. The core idea was that players are superhuman soldiers that can **run on walls** and fight Kaijus with all kinds of weapons.
 
 It looks very cool and probably too cool to be true so that we decided that we were not worthy of making it.
 

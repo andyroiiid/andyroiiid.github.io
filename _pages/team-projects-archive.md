@@ -1,5 +1,5 @@
 ---
-title: Team Games
+title: Shipped/Team Games
 layout: collection
 permalink: /team_games/
 collection: team_games

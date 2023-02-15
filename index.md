@@ -18,26 +18,6 @@ header:
 title: "Andrew Huang"
 excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Graphics/Engine Programmer**."
 
-shipped_row:
-  - image_path: /assets/images/conjury-revell/cover.png
-    title: "Conjury Revell (2023)"
-    excerpt: "A **steampunk** first person shooter. Shipped on **Steam**. I worked on this project as a **Technical Designer**."
-    url: "/shipped_games/conjury-revell"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/hex-rally-racers/cover.jpg
-    title: "Hex Rally Racers (2022)"
-    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**. I worked on this project as a **Gameplay Programmer** and a **VFX Artist**."
-    url: "/shipped_games/hex-rally-racers"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/brain-machine/cover.png
-    title: "Brain Machine (2017)"
-    excerpt: "A 3D puzzle/action game focusing on **polymorphing maps**. Shipped on **Steam**, **App Store**, and Chinese **Android** stores. I worked on this as a **Unity3D/Sever** Programmer."
-    url: "/shipped_games/brain-machine"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
 haru_row:
   - image_path: /assets/images/haru-v/cover.png
     title: "Haru-V Engine"
@@ -45,6 +25,26 @@ haru_row:
     url: "/personal_projects/haru-v"
     btn_label: "Read More"
     btn_class: "btn--success"
+
+shipped_row:
+  - image_path: /assets/images/brain-machine/cover.png
+    title: "Brain Machine (2017)"
+    excerpt: "A 3D puzzle/action game focusing on **polymorphing maps**. Shipped on **Steam**, **App Store**, and Chinese **Android** stores. I worked on this as a **Unity3D/Sever** Programmer."
+    url: "/team_games/brain-machine"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/conjury-revell/cover.png
+    title: "Conjury Revell (2023)"
+    excerpt: "A **steampunk** first person shooter. Shipped on **Steam**. I worked on this project as a **Technical Designer**."
+    url: "/team_games/conjury-revell"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/hex-rally-racers/cover.jpg
+    title: "Hex Rally Racers (2022)"
+    excerpt: "A split-screen multiplayer **racing** game. Shipped on **Steam**. I worked on this project as a **Gameplay Programmer** and a **VFX Artist**."
+    url: "/team_games/hex-rally-racers"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 personal_row:
   - image_path: /assets/images/strafe/cover.png
@@ -67,6 +67,8 @@ personal_row:
     btn_class: "btn--primary"
 ---
 
+{% include feature_row id="haru_row" type="left" %}
+
 <h1><center>Shipped Games</center></h1>
 <hr/>
 
@@ -74,7 +76,5 @@ personal_row:
 
 <h1><center>Personal Projects</center></h1>
 <hr/>
-
-{% include feature_row id="haru_row" type="left" %}
 
 {% include feature_row id="personal_row" %}

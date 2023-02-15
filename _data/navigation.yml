@@ -1,9 +1,7 @@
 main:
-  - title: "Shipped Games"
-    url: /shipped_games/
   - title: "Personal Projects"
     url: /personal_projects/
-  - title: "Team Games"
+  - title: "Shipped/Team Games"
     url: /team_games/
   - title: "About Me"
     url: /about/
