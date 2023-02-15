@@ -47,14 +47,14 @@ haru_row:
     btn_class: "btn--success"
 
 personal_row:
-  - image_path: /assets/images/temp.png
+  - image_path: /assets/images/strafe/cover.png
     title: "Strafe"
-    excerpt: "A high-mobility first person shooter prototype with wall-running abilities."
+    excerpt: "A high-mobility first person shooter prototype with **wall-running** abilities like *Titanfall 2*. My master's thesis is also related to this project."
     url: "/personal_projects/strafe"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/blockcraft/cover.png
-    title: "Blockcraft Engine & Free Fall (Game)"
+    title: "Blockcraft & Free Fall"
     excerpt: "A **multi-threaded** Minecraft-like **voxel** game engine with **infinite world** support, and a **plaforming** game made with the engine. It's one of my early projects."
     url: "/personal_projects/blockcraft"
     btn_label: "Read More"

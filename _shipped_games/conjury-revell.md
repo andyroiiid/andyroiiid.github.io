@@ -52,19 +52,6 @@ toc: true
 - Helped the sound team, implemented several sound effects, and made the system for ambient sound.
 - Fixed aesthetics and performance issues on lighting together with the lead artist.
 
-## Kaiju Killer: The game that never existed
-
-During the preproduction stage, I brought up a quite ambitious project idea and we made a Flash Hack prototype for it. The core idea was that players are superhuman soldiers that can **run on walls** and fight Kaijus with all kinds of weapons.
-
-If you've seen my personal project [Strafe](/personal_projects/strafe), you'll probably guess that the movement system comes from that project, and you are absolutely right.
-
-It looks very cool and probably too cool to be true so that we decided that we were not worthy of making it.
-
-That was just joking. We didn't pick this idea because it was way too overscoped and we only had one available animation artist.
-{: .notice--info}
-
-{% include video id="CF5McWboXwY" provider="youtube" %}
-
 ## Houdini Preproduction
 
 During the preproduction stage, I was the sole developer responsible for exploring integrating Houdini into our pipeline.
