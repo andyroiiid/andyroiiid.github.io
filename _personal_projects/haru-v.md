@@ -1,6 +1,6 @@
 ---
 title:  "Haru-V Engine"
-excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines**, **Casecade Shadow Map**, and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
+excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines**, **Cascaded Shadow Map**, and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
 header:
   teaser: /assets/images/haru-v/cover.png
   overlay_image: /assets/images/haru-v/screenshot2.png
@@ -28,7 +28,7 @@ sidebar:
 gallery1:
   - url: /assets/images/haru-v/pipeline/shadow_map.png
     image_path: /assets/images/haru-v/pipeline/shadow_map.png
-    title: "Cascade Shadow Maps"
+    title: "Cascaded Shadow Maps"
   - url: /assets/images/haru-v/pipeline/position.png
     image_path: /assets/images/haru-v/pipeline/position.png
     title: "Position Buffer"
@@ -81,7 +81,7 @@ Here's a graph of the rendering pipeline:
 
 It's a very standard pipeline and there are basically four passes:
 
-- **Cascade Shadow Maps** (Depth Only)
+- **Cascaded Shadow Maps** (Depth Only)
   - Render *shadow-casting* objects to shadow maps
 - **Deferred Pass** (HDR)
   - Render every *opaque* object
@@ -108,9 +108,9 @@ The result works great:
 
 ![PBR](/assets/images/haru-v/pbr.png)
 
-### Cascade Shadow Map
+### Cascaded Shadow Map
 
-The Cascade Shadow Map implementation was largely based on the [Guest Article from LearnOpenGL](https://learnopengl.com/Guest-Articles/2021/CSM). I also tried to implement some techniques from [the Microsoft tutorial on CSM](https://learn.microsoft.com/en-us/windows/win32/dxtecharts/cascaded-shadow-maps) (mainly the Depth Bias ones).
+The Cascaded Shadow Map implementation was largely based on the [Guest Article from LearnOpenGL](https://learnopengl.com/Guest-Articles/2021/CSM). I also tried to implement some techniques from [the Microsoft tutorial on CSM](https://learn.microsoft.com/en-us/windows/win32/dxtecharts/cascaded-shadow-maps) (mainly the Depth Bias ones).
 
 Here's an image visualizing the CSM cascades:
 

@@ -21,7 +21,7 @@ excerpt: "Hi, I'm **An \"Andrew\" Huang**, a **Game Graphics/Engine Programmer**
 haru_row:
   - image_path: /assets/images/haru-v/cover.png
     title: "Haru-V Engine"
-    excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines**, **Casecade Shadow Map**, and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
+    excerpt: "A **Vulkan** 3D game engine with **Physically Based Rendering**, **Forward + Deferred Pipelines**, **Cascaded Shadow Map**, and **Lua Scripting** support. It also integrates **FMOD** and **PhysX**. Somewhat inspired by **Quake/Source/early IW** Engines."
     url: "/personal_projects/haru-v"
     btn_label: "Read More"
     btn_class: "btn--success"
