@@ -94,7 +94,7 @@ Then, a special entity caught my attention when I was trying to design my second
 
 In Half Life 2 there's another entity called `point_teleport`. It's a widely used entity, but there's a big limitation with it: you cannot change the target location at runtime. But if you combine `logic_measure_movment` with `point_teleport` and guess what? Now you can change the target teleportation location! There's also a bonus with this: players don't lose velocity when teleporting!
 
-![Hammer screenshot](/assets/images/overtime/hammer.png)
+[![Hammer screenshot](/assets/images/overtime/hammer.png)](/assets/images/overtime/hammer.png)
 
 This is how I implemented the time-travel mechanic. I made two versions of the same world in two timelines, and used those entities to synchronize players' location and teleportation targets. You can see the video for the final effect. It's seamless.
 

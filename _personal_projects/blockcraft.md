@@ -185,7 +185,7 @@ I have absolutely no idea why I didn't submit a pull request back then.
 
 I began to use [RenderDoc](https://renderdoc.org/) to debug my graphics code in this version, which was a great tool.
 
-![RenderDoc screenshot](/assets/images/blockcraft/renderdoc.png)
+[![RenderDoc screenshot](/assets/images/blockcraft/renderdoc.png)](/assets/images/blockcraft/renderdoc.png)
 
 ### Version 3: Fake Ambient Occlusion & Custom Voxel Physics
 
@@ -193,7 +193,7 @@ In this version, I implemented a [fake ambient occlusion](https://iquilezles.org
 
 It looked nice, though.
 
-![Fake ambient occlusion](/assets/images/blockcraft/version-3-0.png)
+[![Fake ambient occlusion](/assets/images/blockcraft/version-3-0.png)](/assets/images/blockcraft/version-3-0.png)
 
 ![Binary search collision detection](/assets/images/blockcraft/physics.png)
 {: .align-right}
@@ -204,7 +204,7 @@ The character controller is a [**kinematic controller**](https://nvidia-omnivers
 
 Also, starting from this version I began to use [Tracy](https://github.com/wolfpld/tracy) to monitor the game performance.
 
-![Tracy screenshot](/assets/images/blockcraft/tracy.png)
+[![Tracy screenshot](/assets/images/blockcraft/tracy.png)](/assets/images/blockcraft/tracy.png)
 
 ### Version 4: The Game
 
@@ -235,7 +235,7 @@ I managed to get some sort of gameplay working, but it just didn't feel very gre
 
 I've been a fan of platforming games, so I started to make one myself. This time it worked much better and I got tons of interesting stuff working.
 
-![Version 5.0](/assets/images/blockcraft/version-5.0.png)
+[![Version 5.0](/assets/images/blockcraft/version-5.0.png)](/assets/images/blockcraft/version-5.0.png)
 
 #### Skybox
 
@@ -256,13 +256,13 @@ After studying the [`.vox` file format](https://github.com/ephtracy/voxel-model/
 - Different color palette indices are mapped to different block types
 - There are extra config files for entities (doors, buttons, checkpoints, etc.)
 
-![Level Editor](/assets/images/blockcraft/magicavoxel.png)
+[![Level Editor](/assets/images/blockcraft/magicavoxel.png)](/assets/images/blockcraft/magicavoxel.png)
 
 ### Version 5.1: A New Look
 
 After a while I decided that [Kenney's textures](https://www.kenney.nl/) was too dark (muddy?) with the fog, so I made a new minimalistic texture set myself.
 
-![Version 5.1](/assets/images/blockcraft/version-5.1.png)
+[![Version 5.1](/assets/images/blockcraft/version-5.1.png)](/assets/images/blockcraft/version-5.1.png)
 
 This time I polished the platforming code and added stuff like **coyote-time** to the character controller.
 
@@ -272,4 +272,4 @@ This is the final version. I added more gameplay elements to the game.
 
 This version also supports emissive textures (those icons on the blocks).
 
-![Version 5.2](/assets/images/blockcraft/version-5.2.png)
+[![Version 5.2](/assets/images/blockcraft/version-5.2.png)](/assets/images/blockcraft/version-5.2.png)

@@ -201,7 +201,7 @@ With the help of TrenchBroom, it's super easy to integrate those into my engine:
 2. I used my custom exporter to export those CSG meshes and did some pre-processing.
 3. I simply loaded the CSG brushes and generate meshes, materials, and convex PhysX colliders for them.
 
-![CSG Brushes](/assets/images/haru-v/brushes.png)
+[![CSG Brushes](/assets/images/haru-v/brushes.png)](/assets/images/haru-v/brushes.png)
 
 *CSG Brushes in PhysX Visual Debugger*
 {: .text-center}
