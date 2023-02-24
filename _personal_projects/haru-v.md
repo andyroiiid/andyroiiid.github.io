@@ -48,7 +48,7 @@ gallery1:
 toc: true
 ---
 
-This is my latest personal engine project. After playing around with engines like Source, Quake, and IW, I decided to put what I've learned so far into use.
+This is my latest personal engine project. After building Source SDK from source and playing around with Hammer editor, I decided to put what I've learned so far into use.
 
 ## Scripting Demo Video
 
@@ -64,7 +64,7 @@ The first version of this engine was actually in OpenGL: [Haru Engine](https://g
 
 Here's a screenshot of the original Haru Engine. It doesn't have PBR rendering.
 
-![Haru Screenshot](/assets/images/haru-v/haru.png)
+[![Haru Screenshot](/assets/images/haru-v/haru.png)](/assets/images/haru-v/haru.png)
 
 Later I decided to rewrite it with Vulkan because I learned Vulkan a while ago and wanted to give it a try.
 
@@ -106,7 +106,7 @@ So in this project I basically followed tutorials like [LearnOpenGL](https://lea
 
 The result works great:
 
-![PBR](/assets/images/haru-v/pbr.png)
+[![PBR](/assets/images/haru-v/pbr.png)](/assets/images/haru-v/pbr.png)
 
 ### Cascaded Shadow Map
 
@@ -114,7 +114,7 @@ The Cascaded Shadow Map implementation was largely based on the [Guest Article f
 
 Here's an image visualizing the CSM cascades:
 
-![CSM Splits](/assets/images/haru-v/csm.png)
+[![CSM Splits](/assets/images/haru-v/csm.png)](/assets/images/haru-v/csm.png)
 
 ### `glslang` Runtime Shader Compilation
 
@@ -130,11 +130,11 @@ It's easy to do some persistent caching but I don't have that many shaders yet.
 
 ### FXAA Integration
 
-I found a piece of [FXAA 3.11](https://gist.github.com/kosua20/0c506b81b3812ac900048059d2383126) implementation online and put it into the engine. It could use more tweaking but I think it works well enough now.
+I integrated [FXAA 3.11](https://gist.github.com/kosua20/0c506b81b3812ac900048059d2383126) made by NVIDIA into the engine. It could use more tweaking but I think it works well enough now.
 
 I removed the out-dated parts (Xbox 360 and PS3 stuff) from the code so [now it only contains the PC Quality version](https://github.com/andyroiiid/Haru-V/blob/master/game/assets/shader_includes/fxaa.glsl).
 
-![fxaa](/assets/images/haru-v/fxaa.png)
+[![fxaa](/assets/images/haru-v/fxaa.png)](/assets/images/haru-v/fxaa.png)
 
 *From left to right: Without FXAA; Pixel Difference; With FXAA*
 {: .text-center}
@@ -143,11 +143,11 @@ I removed the out-dated parts (Xbox 360 and PS3 stuff) from the code so [now it 
 
 ###  Modified [TrenchBroom](https://github.com/andyroiiid/TrenchBroom-Haru)
 
-For map editing, I modified the TrenchBroom editor and wrote a custom [FGD](#quakehammer-style-entities) for my game.
+For map editing, I modified the TrenchBroom editor and wrote a [custom FGD](#quakehammer-style-entities) for my game.
 
 And this is the modified TrenchBroom in action:
 
-![TrenchBroom-Haru](/assets/images/haru-v/trenchbroom.png)
+[![TrenchBroom-Haru](/assets/images/haru-v/trenchbroom.png)](/assets/images/haru-v/trenchbroom.png)
 
 *There's no midification made to the UI so it doesn't look very different from the original TrenchBroom.*
 
@@ -162,7 +162,7 @@ It's [a very simple binary format](https://github.com/andyroiiid/Haru-V/blob/mas
     - Properties[]
       - Key
       - Value
-    - BSP Brushes[]
+    - CSG Brushes[]
       - Convex Hull
         - Vertices[]
       - Faces
@@ -171,7 +171,7 @@ It's [a very simple binary format](https://github.com/andyroiiid/Haru-V/blob/mas
 
 And a sample map file looks like this in [ImHex](https://github.com/WerWolv/ImHex):
 
-![ImHex](/assets/images/haru-v/imhex.png)
+[![ImHex](/assets/images/haru-v/imhex.png)](/assets/images/haru-v/imhex.png)
 
 ## Gameplay
 
@@ -188,22 +188,22 @@ With this new Haru-V engine I soon realized that I needed a robust player moveme
 Unity uses PhysX as the physics backend and its physics module is basically just a thin wrapper of Physx. (Unlike Unreal which builds on PhysX and implements a whole new movement system like `UCharacterMovementComponent`)
 {: .notice--info}
 
-### Static/kinematic/physically-simulated BSP brushes
+### Static/kinematic/physically-simulated CSG brushes
 
-[BSP brushes](https://developer.valvesoftware.com/wiki/Brush) ([CSG brushes](https://en.wikibooks.org/wiki/GtkRadiant/The_CSG_Tools), or [Convex Hulls](https://en.wikipedia.org/wiki/Convex_hull) if you are a math guy) are probably the most iconic feature in Quake-like engines.
+[CSG brushes](https://en.wikibooks.org/wiki/GtkRadiant/The_CSG_Tools) ([BSP brushes](https://developer.valvesoftware.com/wiki/Brush), or [Convex Hulls](https://en.wikipedia.org/wiki/Convex_hull) if you are a math guy) are probably the most iconic feature in Quake-like engines.
 
 In case you haven't noticed, I'm a big fan of retro gaming and those old technologies.
 {: .notice--success}
 
 With the help of TrenchBroom, it's super easy to integrate those into my engine:
 
-1. TrenchBroom is designed for BSP modelling, so I don't need to worry about that.
-2. I used my custom exporter to export those BSPs and did some pre-processing.
-3. I simply load the BSP brushes and generate meshes, materials, and convex PhysX colliders for them.
+1. TrenchBroom is designed for CSG modelling, so I don't need to worry about that.
+2. I used my custom exporter to export those CSG meshes and did some pre-processing.
+3. I simply loaded the CSG brushes and generate meshes, materials, and convex PhysX colliders for them.
 
-![BSP Brushes](/assets/images/haru-v/brushes.png)
+![CSG Brushes](/assets/images/haru-v/brushes.png)
 
-*BSP Brushes in PhysX Visual Debugger*
+*CSG Brushes in PhysX Visual Debugger*
 {: .text-center}
 
 ### Quake/Hammer style entities
@@ -303,7 +303,7 @@ end)
 
 I think this is probably the 4th time I integrated FMOD into my C++ engine, so everything went pretty smoothly.
 
-![FMOD](/assets/images/haru-v/fmod.png)
+[![FMOD](/assets/images/haru-v/fmod.png)](/assets/images/haru-v/fmod.png)
 *The FMOD event for doors. A simple looping event with intro and outro.*
 {: .text-center}
 
@@ -320,7 +320,7 @@ I've integrated it into my personal C++ projects before so naturally it became m
 I'm not really interested in testing my crappy physics implementation over and over to make it barely functional. I've tried that [before](/personal_projects/blockcraft/#version-3-fake-ambient-occlusion--custom-voxel-physics).
 {: .notice--success}
 
-![PhysX](/assets/images/haru-v/physx.png)
+[![PhysX](/assets/images/haru-v/physx.png)](/assets/images/haru-v/physx.png)
 *Physics debugging with PhysX Visual Debugger.*
 {: .text-center}
 

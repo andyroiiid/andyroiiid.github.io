@@ -73,7 +73,7 @@ Obviously, the **first** option, which is the *Unreal* default, is a bad one. Im
 
 *Titanfall* uses the **second** option. It works nicely most of the time, but if the platform is changing directions frequently and you are double jumping towards a static reference, you' ll see some weird stuff like the video above.
 
-Therefore, I'm using a **thrid** option in *Strafe*:
+Therefore, I'm using a **third** option in *Strafe*:
 
 > The player character inherits the velocity of the object it last touches.
 
