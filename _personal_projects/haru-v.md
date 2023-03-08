@@ -68,7 +68,7 @@ Here's a screenshot of the original Haru Engine. It doesn't have PBR rendering.
 
 Later I decided to rewrite it with Vulkan because I learned Vulkan a while ago and wanted to give it a try.
 
-Who doesn't love a API which takes more than 500 lines for the first triangle?
+Who doesn't love an API which takes more than 500 lines for the first triangle?
 {: .notice--success}
 
 The engine got a **huge performance boost** after migrating to Vulkan. With OpenGL it used to struggle to hit 30 fps on a Radeon Vega 8 (integrated). Now it can maintain 60 fps on that same graphics card with Vulkan.
