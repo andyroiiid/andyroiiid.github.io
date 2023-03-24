@@ -3,6 +3,10 @@ permalink: /resume/
 title: Resume
 ---
 
+## PDF Resume
+
+Click [here](https://drive.google.com/file/d/18iqd6H-QjgJFoL5_sp4iGTpOQ-N0KXUY/view?usp=sharing) to download.
+
 ## Skills
 
 | Category | 
