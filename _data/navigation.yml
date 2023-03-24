@@ -1,7 +1,11 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Personal Projects"
     url: /personal_projects/
   - title: "Shipped/Team Games"
     url: /team_games/
   - title: "About Me"
     url: /about/
+  - title: "Resume"
+    url: /resume/
