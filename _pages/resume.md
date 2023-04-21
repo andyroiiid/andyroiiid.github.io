@@ -23,7 +23,7 @@ Click [here](https://drive.google.com/file/d/18iqd6H-QjgJFoL5_sp4iGTpOQ-N0KXUY/v
 
 ## Work Experience
 
-### Unity2D & Server Programmer, Technical Artist
+### Unity3D & Server Programmer, Technical Artist
 *Brainagi Games, Wuhan, Hubei, China, 06/2017 - 03/2019*
 
 Titles Worked On: Brain Machine ([Steam](https://store.steampowered.com/app/601119/Brain_Machine/), [Android](https://www.taptap.cn/app/67060?hreflang=en_US), [iOS](https://apptopia.com/ios/app/1208346401/about)), Rolling Blocks (A cancelled remake)([Android](https://play.google.com/store/apps/details?id=com.Brainagi.RollingPharaoh&hl=en_US&gl=US)).
